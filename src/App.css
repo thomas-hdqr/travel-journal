@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  height: 55px;
+  background-color: #F55A5A;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-title {
+  color: #FFFF;
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.travel-cards {
+  margin: 55px 55px;
+}
+
+.card {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.card-image {
+  max-width: 140px;
+  margin-right: 20px;
+  border-radius:5px;
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+.card-date {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.card-country {
+  font-size: 11px;
+  font-weight: regular;
+  text-transform: uppercase;
+  letter-spacing: 6%;
+  margin-left: 5px;
+}
+
+.card-location {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-google {
+  margin-left: 20px;
+  font-size: 11px;
+}
+
+.card-description {
+  font-weight: regular;
 }
